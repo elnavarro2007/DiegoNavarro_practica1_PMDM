@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Practica1_PMDM_DNF</string>
+    <string name="app_name">Dog_age</string>
+    <string name="calcular">calcular edad!!!!!</string>
+    <string name="hola">"tu edad seria : %d "</string>
 </resources>

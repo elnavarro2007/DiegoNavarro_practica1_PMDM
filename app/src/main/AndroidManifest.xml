@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica1_PMDM_DNF">
         <activity
-            android:name=".MainActivity"
+            android:name=".loginActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -21,6 +21,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EdadCaninaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SuperHeroActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+
+
+
+
+
     </application>
 
 </manifest>
