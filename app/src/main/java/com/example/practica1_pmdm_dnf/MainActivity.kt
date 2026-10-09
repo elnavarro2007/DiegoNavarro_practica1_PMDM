@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val usuario = intent.getStringExtra("usuario") ?: "user"
 
 
-        binding.textoGoodMorning.text = "Hola $usuario"
+        binding.textoBienvenida.text = "Hola $usuario"
 
 
 
@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.tarjetaSuperheroe.setOnClickListener {
             val intent = Intent (this, SuperHeroActivity :: class.java)
+            startActivity(intent)
+        }
+
+        binding.tarjetaQuiz.setOnClickListener {
+            val intent = Intent(this, QuizActvity :: class.java)
             startActivity(intent)
         }
 

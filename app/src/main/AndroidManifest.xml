@@ -38,6 +38,14 @@
             android:name=".DetailActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".QuizActvity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RespuestaActivity"
+            android:exported="false" />
+
 
 
 
